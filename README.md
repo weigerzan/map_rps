@@ -12,7 +12,7 @@ We show the D-P curve using DPS, $\Pi$GDM, and DMPS used in Stage 2 on the denoi
 ---
 
 ### Figure R.2. Results on challenging tasks.  
-We include additional evaluations on more difficult tasks, including $8\times$ super-resolution, $25\%$ compressed sensing, and $128\times 128$ box inpainting.
+We include additional evaluations on more difficult tasks, including $8\times$ super-resolution, $25\%$ compressed sensing, and $128\times 128$ box inpainting. All the tasks apply noise with $\sigma_{\mathbf{y}}=0.1$.
 
 ![Hard Tasks](figs/Rebuttal_hard_tasks.png)
 
