@@ -34,7 +34,7 @@ We provide a simple comparison of CCDF and MAP-RPS to further illustrate the dif
 
 
 ### Table R.1. D-P traversal on hard tasks (for Reviewer N4k8, point 1; Reviewer gEN5, point 1; and Reviewer 6254, point 1).
-D-P traversal of LMAP-RPS on $8\times$ Super-resolution, $25$% Compressed Sensing and $128\times 128$ Box Inpainting.
+D-P traversal of LMAP-RPS on $8\times$ Super-resolution, 25% Compressed Sensing and 128 x 128 Box Inpainting.
 
 |||$t_0=0$|$t_0=100$|$t_0=200$|$t_0=300$|$t_0=400$|$t_0=500$|
 |-|-|-|-|-|-|-|-|
