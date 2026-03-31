@@ -33,8 +33,8 @@ We provide a simple comparison of CCDF and MAP-RPS to further illustrate the dif
 ![CCDF Comparison](figs/Rebuttal_CCDF.png)
 
 
-### Table R.1. D-P traversal on hard tasks.
-D-P traversal of LMAP-RPS on $8\times$ Super-resolution, $25$% Compressed Sensing and $128\times 128$ Box Inpainting (for Reviewer N4k8, point 1; Reviewer gEN5, point 1; and Reviewer 6254, point 1).
+### Table R.1. D-P traversal on hard tasks (for Reviewer N4k8, point 1; Reviewer gEN5, point 1; and Reviewer 6254, point 1).
+D-P traversal of LMAP-RPS on $8\times$ Super-resolution, $25$% Compressed Sensing and $128\times 128$ Box Inpainting.
 
 |||$t_0=0$|$t_0=100$|$t_0=200$|$t_0=300$|$t_0=400$|$t_0=500$|
 |-|-|-|-|-|-|-|-|
@@ -45,8 +45,8 @@ D-P traversal of LMAP-RPS on $8\times$ Super-resolution, $25$% Compressed Sensin
 |Inp ($128$ box)|RMSE|0.0776|0.0780|0.0799|0.0830|0.0831|0.0835|
 ||FID|136.2|116.2|100.6|100.0|101.4|103.7|
 
-### Table R.2. Comparison with CCDF.
-RMSE / FID for CCDF and MAP-RPS on FFHQ (for Reviewer N4k8, point 2).
+### Table R.2. Comparison with CCDF (for Reviewer N4k8, point 2).
+RMSE / FID for CCDF and MAP-RPS on FFHQ.
 |Task|Algo|$t_0=0$|$t_0=25$|$t_0=50$|$t_0=75$|$t_0=100$|
 |-|-|-|-|-|-|-|
 |Inp|MAP-RPS|0.0336 / 82.33|0.0355 / 62.18|0.0369 / 55.02|0.0382 / 52.58|0.0392 / 53.47|
@@ -55,8 +55,8 @@ RMSE / FID for CCDF and MAP-RPS on FFHQ (for Reviewer N4k8, point 2).
 |SR4|MAP-RPS|0.0547 / 133.8|0.0572 / 100.2|0.0596 / 85.74|0.0620 / 77.63|0.0633 / 78.54|
 ||CCDF|0.1101 / 253.5|0.0977 / 269.8|0.0832 / 157.3|0.0769 / 98.54|0.0666 / 85.30|
 
-### Table R.3. Pixel-space comparison.
-Comparison of MAP-RPS and seven pixel-space inverse algorithms (for Reviewer J7Js, point 3). Metrics are reported as PSNR / SSIM / LPIPS / FID.
+### Table R.3. Pixel-space comparison (for Reviewer J7Js, point 3).
+Comparison of MAP-RPS and seven pixel-space inverse algorithms. Metrics are reported as PSNR / SSIM / LPIPS / FID.
 
 |               | Inp                             | Deblur                          | SR$4\times$                     |
 | ------------- | ------------------------------- | ------------------------------- | ------------------------------- |
@@ -70,8 +70,8 @@ Comparison of MAP-RPS and seven pixel-space inverse algorithms (for Reviewer J7J
 | MAP-RPS (0)   | 34.8 / 0.903 / 0.163 / 47.7     | **31.6** / 0.857 / 0.239 / 68.6 | **29.1** / 0.822 / 0.289 / 93.9 |
 | MAP-RPS (300) | **35.8 / 0.943 / 0.110 / 36.5** | 30.7 / **0.865 / 0.178 / 56.9** | 28.8 / **0.826 / 0.232 / 75.4** |
 
-### Table R.4. Comparison under same NFEs.
-Comparison of LMAP-RPS and other latent-space methods under the same NFEs of 200 (for Reviewer J7Js, point 2).
+### Table R.4. Comparison under same NFEs (for Reviewer J7Js, point 2).
+Comparison of LMAP-RPS and other latent-space methods under the same NFEs of 200.
 
 ||NFEs|Inp|Deblur|
 |-|-|-|-|
@@ -86,8 +86,8 @@ Comparison of LMAP-RPS and other latent-space methods under the same NFEs of 200
 |Latent-SITCOM|200|27.0 / 0.753 / 0.374 / 126|23.6 / 0.627 / 0.466 / 184|
 |LMAP-RPS (0)|200|**28.1 / 0.799 / 0.277 / 61.4**|**25.0 / 0.700** / 0.389 / 108|
 
-### Table R.5. Comparison of different posterior sampling methods.
-Comparison of the D-P tradeoff of MAP-RPS with DPS, $\Pi$GDM, and DMPS (for Reviewer J7Js, point 4; and Reviewer gEN5, point 4)
+### Table R.5. Comparison of different posterior sampling methods (for Reviewer J7Js, point 4; and Reviewer gEN5, point 4).
+Comparison of the D-P tradeoff of MAP-RPS with DPS, $\Pi$GDM, and DMPS.
 |||$t_0=0$|$t_0=25$|$t_0=50$|$t_0=75$|$t_0=100$|
 |-|-|-|-|-|-|-|
 |MAP-RPS (DPS)|RMSE|0.0350|0.0352|0.0356|0.0362|0.0367|
