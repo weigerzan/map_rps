@@ -57,6 +57,7 @@ RMSE / FID for CCDF and MAP-RPS on FFHQ (for Reviewer N4k8, point 2).
 
 ### Table R.3. Pixel-space comparison.
 Comparison of MAP-RPS and seven pixel-space inverse algorithms (for Reviewer J7Js, point 3). Metrics are reported as PSNR / SSIM / LPIPS / FID.
+
 ||Inp|Deblur|SR$4\times$|Metrics
 |-|-|-|-|
 |DDNM|33.6 / 0.917 / 0.151 / 58.1|29.8 / 0.843 / 0.219 / 80.5|28.8 / 0.824 / 0.243 / 88.5|
@@ -71,6 +72,7 @@ Comparison of MAP-RPS and seven pixel-space inverse algorithms (for Reviewer J7J
 
 ### Table R.4. Comparison under same NFEs.
 Comparison of LMAP-RPS and other latent-space methods under the same NFEs of 200 (for Reviewer J7Js, point 2).
+
 ||NFEs|Inp|Deblur|
 |-|-|-|-|
 |Latent-DPS|200|21.9 / 0.553 / 0.451 / 203|17.4 / 0.386 / 0.531 / 316|
