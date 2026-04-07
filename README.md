@@ -6,7 +6,7 @@ This repository provides supplementary experimental results for the anonymous su
 ---
 
 ### Figure R.Reply.1. Comparison of different initialization strategies in Stage 1.
-We compare results obtained using different initializations: our MAP method, RED-diff (an existing MAP-based approach), DMAP (a ''local'' MAP solution), and RMP (another \textit{approximate} MMSE solution).
+We compare results obtained using different initializations: our MAP method, RED-diff (an existing MAP-based approach), DMAP (a ''local'' MAP solution), and RMP (another *approximate* MMSE solution).
 
 ![Init Comparison](figs/Rebuttal_DP_denoising_map_method.png)
 
