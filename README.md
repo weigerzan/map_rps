@@ -8,7 +8,7 @@ This repository provides supplementary experimental results for the anonymous su
 ### Figure R.Reply.1. Results on 128 box inpainting on ImageNet.
 We present the D-P curve of LMAP-RPS on $128\times 128$ box inpainting on Imagenet with $\sigma_{\mathbf{y}}=0.1$.
 
-![D-P curve box inpainting ImageNet](figs/Rebuttal_hard_task_imagenet.png)
+![D-P curve box inpainting ImageNet](figs/Rebuttal_hard_tasks_imagenet.png)
 
 ---
 
