@@ -13,7 +13,7 @@ We present the D-P curve of LMAP-RPS on $128\times 128$ box inpainting on ImageN
 ---
 
 ### Figure R.Reply.2. Sample visualizations for box inpainting on ImageNet.
-We present qualitative samples corresponding to the $128\times 128$ box inpainting on ImageNet.
+We present qualitative samples for $128\times128$ box inpainting on ImageNet. Here, $t_0=0$ corresponds to an MMSE estimate, leading to more averaged reconstructions that may even collapse to background content. In contrast, $t_0=800$ is closest to posterior sampling, producing visually more realistic completions but with the largest deviation from the ground truth.
 
 ![Vis box inpainting imagenet](figs/samples_hard_tasks_imagenet.png)
 
