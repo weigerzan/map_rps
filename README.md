@@ -2,6 +2,15 @@
 
 This repository provides supplementary experimental results for the anonymous submission.
 
+
+---
+
+### Figure R.Reply.1. Comparison of different initialization strategies in Stage 1.
+We compare results obtained using different initializations: our MAP method, RED-diff (an existing MAP-based approach), DMAP (a ''local'' MAP solution), and RMP (another \textit{approximate} MMSE solution).
+
+![Init Comparison](figs/Rebuttal_DP_denoising_map_method.png)
+
+
 ---
 
 ### Figure R.1. Comparison of different posterior sampling methods in Stage 2.
@@ -22,8 +31,6 @@ We include additional evaluations on more difficult tasks, including $8\times$ s
 We present qualitative samples corresponding to the challenging tasks for better visual comparison.
 
 ![Samples Hard Tasks](figs/samples_hard_tasks.png)
-
----
 
 ---
 
